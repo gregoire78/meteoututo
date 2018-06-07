@@ -1,5 +1,18 @@
 {
   "expo": {
-    "sdkVersion": "27.0.0"
+    "name": "Météou",
+    "icon": "./logo.png",
+    "version": "1.0.0",
+    "slug": "meteoututo",
+    "sdkVersion": "27.0.0",
+    "android": {
+      "package": "xyz.gregoirejoncour.meteoututo"
+    },
+    "androidStatusBar": {},
+    "isDetached": true,
+    "detach": {
+      "scheme": "expe1bc5c6d23134c8d8f3e81d97a51abe3",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.5.3-sdk27.0.0-408c8d77-8d1f-4784-b7b4-93826250663a.tar.gz"
+    }
   }
 }

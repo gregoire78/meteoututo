@@ -20,7 +20,7 @@ const Tabs = createMaterialBottomTabNavigator ({
 	},
 	About: { screen: About }
 },{
-	labeled: false,
+	labeled: true,
 	initialRouteName: 'Search',
 	barStyle : {
 		backgroundColor: '#a2273c',
@@ -33,7 +33,7 @@ export default class App extends React.Component {
 	render() {
 		return (
 			<View style={{flex: 1}}>
-				<StatusBar hidden={false} translucent={false} backgroundColor="red" />
+				<StatusBar hidden={false} translucent={true} backgroundColor="#7a0619" animated={true} />
 				<Tabs />
 			</View>
 		);
