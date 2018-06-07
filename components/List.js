@@ -46,6 +46,7 @@ export default class List extends React.Component {
                 <ListView
                     refreshControl={
                         <RefreshControl
+                            colors={[style.color]}
                             refreshing={this.state.refreshing}
                             onRefresh={this._onRefresh.bind(this)}
                         />
