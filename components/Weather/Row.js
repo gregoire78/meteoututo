@@ -1,5 +1,6 @@
 import React from 'react';
-import {View, Text, StyleSheet, Image} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
+import Image from 'react-native-remote-svg';
 import PropTypes from 'prop-types';
 import moment from 'moment';
 import FadeInView from '../animation/fadeInView';
@@ -27,13 +28,13 @@ export default class Row extends React.Component {
         const type = this.props.day.weather[0].main.toLowerCase();
         switch (type) {
             case 'clouds':
-                image = require('./icons/cloudy.png')
+                image = require('./icons/cloudy.svg')
                 break;
             case 'rain':
-                image = require('./icons/rain.png')
+                image = require('./icons/rain.svg')
                 break;
             default:
-                image = require('./icons/clear.png')
+                image = require('./icons/clear.svg')
         }
         return <Image source={image} style={{width: size, height: size}} />
     }

@@ -25,6 +25,7 @@
     "nachos-ui": "^0.1.2",
     "react": "16.3.1",
     "react-native": "~0.55.2",
+    "react-native-remote-svg": "^1.2.0",
     "react-native-vector-icons": "^4.6.0",
     "react-navigation": "^2.2.0",
     "react-navigation-material-bottom-tabs": "^0.3.0"

@@ -15,7 +15,8 @@ const Tabs = createMaterialBottomTabNavigator ({
 					size={26}
 					color={tintColor}
 				/>
-			}
+			},
+			tabBarLabel: "Rechercher"
 		}
 	},
 	About: { screen: About }

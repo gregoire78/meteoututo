@@ -12,7 +12,8 @@ export default class About extends React.Component {
                 size={26}
                 style={{ color: tintColor }}
             />
-        }
+        },
+        tabBarLabel: "À propos"
     }
 
     search () {
